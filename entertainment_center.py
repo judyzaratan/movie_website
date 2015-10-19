@@ -33,3 +33,6 @@ batman = media.Movie("Batman Begins",
 
 movies = [silver_linings, guardians, into_darkness, wall_e, lego, batman]
 fresh_tomatoes.open_movies_page(movies)
+
+
+print (media.Movie.__name__)
