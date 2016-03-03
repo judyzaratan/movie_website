@@ -48,10 +48,10 @@ batman = media.Movie(
     "batman_begins_teaser_c.jpg",
     "https://www.youtube.com/watch?v=vak9ZLfhGnQ")
 
-#list of movie objects
+# list of movie objects
 movies = [silver_linings, guardians, into_darkness, wall_e, lego, batman]
 
-#open webpage
+# open webpage
 fresh_tomatoes.open_movies_page(movies)
 
 print (media.Movie.__name__)
